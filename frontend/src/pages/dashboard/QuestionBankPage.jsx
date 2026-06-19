@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Search, Filter, BookOpen, ChevronRight, CheckCircle } from 'lucide-react';
+import { Search, BookOpen, ChevronRight, CheckCircle } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
-import Input from '../../components/ui/Input';
 import { clsx } from 'clsx';
 
 const subjects = ['All', 'Physics', 'Chemistry', 'Mathematics', 'Biology'];
