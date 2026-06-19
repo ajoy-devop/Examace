@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CalendarDays, Target, Clock, CheckCircle, Circle, ChevronRight, Lock } from 'lucide-react';
+import { CalendarDays, CheckCircle, Circle, Lock } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
