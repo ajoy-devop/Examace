@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart3, TrendingUp, Target, AlertCircle, Lock, CheckCircle } from 'lucide-react';
+import { BarChart3, TrendingUp, AlertCircle, Lock, CheckCircle } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
@@ -29,7 +29,6 @@ const weakTopics = [
 ];
 
 function MiniBarChart({ data }) {
-  const max = Math.max(...data.map(d => d.score));
   return (
     <div className="flex items-end gap-2 h-24">
       {data.map((d, i) => (
