@@ -98,7 +98,6 @@ export default function SelectPlanPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
           {plans.map(plan => {
-            const Icon = plan.icon;
             const isSelected = selected === plan.id;
             return (
               <button
