@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   BookOpen, FileText, FlaskConical, CalendarDays, BarChart3,
-  Lock, ArrowRight, TrendingUp, Target, Zap, Brain,
-  MessageCircleQuestion, Trophy, Bot, Flame
+  Lock, ArrowRight, Brain, MessageCircleQuestion, Trophy, Flame
 } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import Card, { CardTitle, CardDescription } from '../../components/ui/Card';
+import Card from '../../components/ui/Card';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
 import { useAuth } from '../../context/AuthContext';
