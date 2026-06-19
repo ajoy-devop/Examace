@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {
   Users, BookOpen, FileText, Upload, CreditCard, BarChart3,
-  Plus, Trash2, Edit2, Search, ChevronDown, Shield, FlaskConical,
+  Plus, Trash2, Edit2, Search, Shield, FlaskConical,
   CheckCircle, AlertCircle, Package
 } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
