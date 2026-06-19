@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Filter, BookOpen, ChevronRight, CheckCircle, Clock } from 'lucide-react';
+import { Search, Filter, BookOpen, ChevronRight, CheckCircle } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
