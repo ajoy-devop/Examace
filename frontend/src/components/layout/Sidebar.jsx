@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   LayoutDashboard, BookOpen, FileText, Brain, CalendarDays,
-  FlaskConical, BarChart3, Lock, Zap, ChevronLeft, ChevronRight,
-  Sparkles, MessageCircleQuestion, Trophy, Bot, School
+  FlaskConical, BarChart3, Lock, Zap, ChevronLeft, ChevronRight, MessageCircleQuestion, Trophy, Bot, School
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import Badge from '../ui/Badge';
