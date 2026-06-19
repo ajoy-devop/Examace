@@ -5,7 +5,6 @@ import {
   Lock, ArrowRight, Brain, MessageCircleQuestion, Trophy, Flame
 } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
-import Card from '../../components/ui/Card';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
 import { useAuth } from '../../context/AuthContext';
