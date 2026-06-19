@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Clock, FileText, CheckCircle, XCircle, Trophy, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Clock, FileText, CheckCircle, XCircle, RotateCcw, ChevronLeft, ChevronRight } from 'lucide-react';
 import DashboardLayout from '../../components/layout/DashboardLayout';
 import Button from '../../components/ui/Button';
 import Badge from '../../components/ui/Badge';
