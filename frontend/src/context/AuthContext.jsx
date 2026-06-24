@@ -42,7 +42,6 @@ export function AuthProvider({ children }) {
       console.error(error);
       throw error;
     }
-    return data;
   };
 
   const signup = async (name, email, password) => {
